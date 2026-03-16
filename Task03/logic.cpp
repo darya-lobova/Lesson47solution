@@ -1,5 +1,7 @@
 #include "logic.h"
 
+//O(N)
+
 int count_multiples(int number, int multiple) {
 	return multiple * (1 + number) * number / 2;
 }
